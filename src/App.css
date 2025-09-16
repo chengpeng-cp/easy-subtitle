@@ -1,0 +1,46 @@
+/* App specific styles */
+.ant-layout-header {
+  padding: 0;
+}
+
+.ant-steps {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.ant-upload-drag {
+  border-radius: 8px !important;
+}
+
+/* Custom scrollbar for preview */
+.ant-card .max-h-96::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ant-card .max-h-96::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.ant-card .max-h-96::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.ant-card .max-h-96::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Animation */
+.ant-card {
+  transition: all 0.3s ease;
+}
+
+.ant-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
